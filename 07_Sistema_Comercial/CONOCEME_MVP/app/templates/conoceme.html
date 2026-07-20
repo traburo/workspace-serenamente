@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="hero">
+  <nav class="brand" aria-label="Principal">
+    <a class="brand-home" href="https://serenamente-landing-page-seven.vercel.app/#top" aria-label="Ir al sitio oficial de Serenamente">Serenamente</a>
+    <small>Experiencias Serenamente</small>
+  </nav>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Serenamente presenta</p>
+      <h1>CONÓCEME</h1>
+      <p class="experience-signature">Una experiencia presencial impartida por <strong>Serenamente</strong></p>
+      <p class="lead">Dos generaciones, un encuentro para detenerse, escucharse y conocerse desde una nueva perspectiva.</p>
+      <p class="audience">Adolescentes de 12 a 17 años + un adulto significativo</p>
+      <div class="hero-actions">
+        <a class="primary-cta" href="#inscripcion">{% if staging_mode %}Probar la inscripción{% else %}Reservar lugar de la dupla{% endif %}</a>
+        <span>Una experiencia presencial de 3 horas</span>
+      </div>
+    </div>
+    <aside class="event-card" aria-label="Datos de la experiencia">
+      <p class="event-card-title">Experiencia Serenamente · Cupos limitados</p>
+      <p><strong>1 de octubre de 2026</strong><span>12:00 a 15:00</span></p>
+      <p><strong>Sede Pedro Fontova</strong><span>Experiencia presencial</span></p>
+      <p><strong>$30.000</strong><span>por dupla · máximo 20 duplas</span></p>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <section class="benefits">
+    <p class="eyebrow">¿Qué encontrarán?</p>
+    <h2>A veces no falta amor. Falta comprendernos.</h2>
+    <ul>
+      <li><span>01</span>Comprender el cerebro adolescente.</li>
+      <li><span>02</span>Practicar escucha y regulación emocional en dupla.</li>
+      <li><span>03</span>Reconocer cómo reaccionan frente al estrés.</li>
+      <li><span>04</span>Crear un compromiso para continuar en casa.</li>
+    </ul>
+    <p class="benefits-note">Incluye recursos y ejercicios para continuar la experiencia en casa.</p>
+  </section>
+
+  <section class="registration" id="inscripcion">
+    <div class="form-intro">
+      <p class="eyebrow">Inscripción</p>
+      <h2>Reserva el lugar de tu dupla</h2>
+      {% if staging_mode %}
+      <p>Esta es una prueba técnica. Usa únicamente datos ficticios y no realices transferencias. La confirmación del pago se simulará desde el panel.</p>
+      {% else %}
+      <p>Recibiremos tus datos y te contactaremos con las instrucciones de transferencia. Alex Martínez verificará el pago y luego confirmaremos el cupo.</p>
+      <p>El pago puede realizarse hasta el 30 de septiembre de 2026. Los comprobantes se reciben en <a href="mailto:awmc18@gmail.com">awmc18@gmail.com</a>.</p>
+      {% endif %}
+      <a class="whatsapp" href="https://wa.me/{{ whatsapp }}" rel="noopener">¿Tienes dudas? Escríbenos por WhatsApp</a>
+    </div>
+    <form method="post" action="{{ url_for('public.register') }}" novalidate>
+      <p class="form-kicker">Datos de la dupla</p>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+      <input type="hidden" name="utm_source" value="{{ request.args.get('utm_source', '') }}">
+      <input type="hidden" name="utm_medium" value="{{ request.args.get('utm_medium', '') }}">
+      <input type="hidden" name="utm_campaign" value="{{ request.args.get('utm_campaign', '') }}">
+      <label class="trap" aria-hidden="true">Sitio web<input name="website" tabindex="-1" autocomplete="off"></label>
+      {% if errors.form %}<div class="error form-error" role="alert">{{ errors.form }}</div>{% endif %}
+      <label>Nombre del adulto responsable
+        <input name="adult_name" value="{{ values.get('adult_name', '') }}" maxlength="100" autocomplete="name" required>
+        {% if errors.adult_name %}<span class="error">{{ errors.adult_name }}</span>{% endif %}
+      </label>
+      <div class="two-columns">
+        <label>Correo electrónico
+          <input type="email" name="email" value="{{ values.get('email', '') }}" maxlength="254" autocomplete="email" required>
+          {% if errors.email %}<span class="error">{{ errors.email }}</span>{% endif %}
+        </label>
+        <label>Teléfono o WhatsApp
+          <input type="tel" name="phone" value="{{ values.get('phone', '') }}" autocomplete="tel" placeholder="9 1234 5678" required>
+          {% if errors.phone %}<span class="error">{{ errors.phone }}</span>{% endif %}
+        </label>
+      </div>
+      <div class="two-columns">
+        <label>Nombre de pila del adolescente
+          <input name="teen_first_name" value="{{ values.get('teen_first_name', '') }}" maxlength="60" required>
+          {% if errors.teen_first_name %}<span class="error">{{ errors.teen_first_name }}</span>{% endif %}
+        </label>
+        <label>Edad
+          <select name="teen_age" required>
+            <option value="">Selecciona</option>
+            {% for age in range(12, 18) %}<option value="{{ age }}" {% if values.get('teen_age') == age|string %}selected{% endif %}>{{ age }} años</option>{% endfor %}
+          </select>
+          {% if errors.teen_age %}<span class="error">{{ errors.teen_age }}</span>{% endif %}
+        </label>
+      </div>
+      <label>¿Cómo llegaste a esta experiencia?
+        <select name="source">
+          <option value="direct">Enlace directo</option><option value="instagram">Instagram</option>
+          <option value="whatsapp">WhatsApp</option><option value="referral">Recomendación</option>
+          <option value="qr">Código QR</option><option value="other">Otro</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" name="operational_consent" value="yes" {% if values.get('operational_consent') == 'yes' %}checked{% endif %} required><span>Autorizo el uso de estos datos para gestionar esta inscripción y las comunicaciones necesarias de la experiencia.</span></label>
+      {% if errors.operational_consent %}<span class="error">{{ errors.operational_consent }}</span>{% endif %}
+      <label class="check"><input type="checkbox" name="marketing_consent" value="yes" {% if values.get('marketing_consent') == 'yes' %}checked{% endif %}><span>Quiero recibir información futura de Serenamente. <strong>Opcional.</strong></span></label>
+      <button type="submit">Enviar inscripción</button>
+      <p class="privacy-note">Solo solicitamos datos necesarios para gestionar el evento. No compartas diagnósticos ni antecedentes clínicos.</p>
+    </form>
+  </section>
+  <section class="cancellation-policy">
+    <p class="eyebrow">Política provisional</p><h2>Cancelaciones y devoluciones</h2>
+    <p>Hasta 7 días antes del evento: devolución completa. Entre 6 días y 48 horas antes: devolución del 50% o abono completo para otra experiencia. Dentro de las últimas 48 horas o por inasistencia no hay devolución, pero el cupo puede transferirse a otra dupla.</p>
+    <p>Si Serenamente cancela o cambia la fecha o el lugar y la dupla no puede asistir, se ofrecerá devolución completa. Los derechos legales de las personas consumidoras siempre prevalecen.</p>
+  </section>
+</main>
+<footer>CONÓCEME · Una experiencia de Serenamente · Contacto WhatsApp: 9 3703 3936</footer>
+{% endblock %}

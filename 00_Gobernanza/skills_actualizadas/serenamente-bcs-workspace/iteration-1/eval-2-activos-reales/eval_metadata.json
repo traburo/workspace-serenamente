@@ -1,0 +1,10 @@
+{
+  "eval_id": 2,
+  "eval_name": "activos-reales-con-derechos",
+  "prompt": "Crea una campaña para Respirar para Avanzar usando las fotografías reales de la primera experiencia y el logo disponible en recursos visuales.",
+  "assertions": [
+    "Consulta activos por solicitud explícita.",
+    "Verifica derechos y autorizaciones.",
+    "No convierte los activos en plantilla universal."
+  ]
+}

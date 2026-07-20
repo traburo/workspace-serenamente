@@ -1,0 +1,25 @@
+{% extends "admin/base.html" %}
+{% block admin_content %}
+<a href="{{ url_for('admin.registrations') }}">← Volver a inscripciones</a>
+<div class="admin-title"><div><p class="eyebrow">{{ registration.public_reference }}</p><h1>{{ registration.adult_name }}</h1></div>
+  <span class="status status-{{ registration.status }}">{{ status_labels[registration.status] }}</span></div>
+<div class="detail-grid">
+  <section class="admin-card"><h2>Dupla y contacto</h2>
+    <dl><dt>Adolescente</dt><dd>{{ registration.teen_first_name }}, {{ registration.teen_age }} años</dd>
+    <dt>Correo</dt><dd>{{ registration.email }}</dd><dt>WhatsApp</dt><dd>{{ registration.whatsapp }}</dd>
+    <dt>Fuente</dt><dd>{{ registration.source }}</dd><dt>Marketing</dt><dd>{{ 'Sí' if registration.marketing_consent else 'No' }}</dd></dl>
+  </section>
+  <section class="admin-card"><h2>Actualizar estado</h2>
+    {% if transitions %}<form method="post" action="{{ url_for('admin.update_status', public_reference=registration.public_reference) }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+      <label>Nuevo estado<select name="status" required><option value="">Selecciona</option>{% for state in transitions %}<option value="{{ state }}">{{ status_labels[state] }}</option>{% endfor %}</select></label>
+      <label>Nota operativa, sin información clínica<textarea name="note" maxlength="500" rows="3"></textarea></label>
+      <button type="submit">Guardar cambio</button>
+    </form>{% else %}<p>Esta inscripción no tiene transiciones pendientes.</p>{% endif %}
+  </section>
+</div>
+<section class="admin-card"><h2>Mensajes</h2><div class="table-wrap"><table><thead><tr><th>Tipo</th><th>Estado</th><th>Programado</th><th>Intentos</th><th>Error</th></tr></thead><tbody>
+{% for message in messages %}<tr><td>{{ message.type }}</td><td>{{ message.status }}</td><td>{{ message.scheduled_for.strftime('%d-%m-%Y %H:%M') }}</td><td>{{ message.attempt_count }}</td><td>{{ message.last_error or '—' }}</td></tr>{% else %}<tr><td colspan="5">Sin mensajes registrados.</td></tr>{% endfor %}
+</tbody></table></div></section>
+<section class="admin-card"><h2>Trazabilidad</h2><ol class="audit-list">{% for entry in audit_log %}<li><strong>{{ entry.actor_id }}</strong> · {{ entry.created_at.strftime('%d-%m-%Y %H:%M') }}<br>{{ entry.before_state.status }} → {{ entry.after_state.status }}{% if entry.note %}<br>{{ entry.note }}{% endif %}</li>{% else %}<li>Sin cambios administrativos.</li>{% endfor %}</ol></section>
+{% endblock %}

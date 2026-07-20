@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "lienzo-nuevo-sin-activos-heredados",
+  "prompt": "Rediseña desde cero la página comercial de Serenamente con una propuesta de alto nivel. No quiero que el resultado se parezca a las páginas anteriores y no necesito que uses las fotos existentes.",
+  "assertions": [
+    "No impone una estética histórica.",
+    "No exige revisar recursos visuales antes de crear.",
+    "Conserva los controles responsables al final."
+  ]
+}

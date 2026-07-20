@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" mc:Ignorable="w14 w15 wp14">
+  <w:background w:color="FBF6EE"/>
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="140" w:before="100"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0">
+            <wp:extent cx="914400" cy="914400"/>
+            <wp:effectExtent t="0" r="0" b="0" l="0"/>
+            <wp:docPr id="1" name="" descr="" title=""/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="" descr=""/>
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId9" cstate="none"/>
+                    <a:srcRect/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="914400" cy="914400"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="30"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="6E6459"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">ARQUITECTURA DEL ECOSISTEMA</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:cs="Georgia" w:eastAsia="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="42"/>
+          <w:szCs w:val="42"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Mapa Maestro del Ecosistema Serenamente</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="260"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:i/>
+          <w:iCs/>
+          <w:color w:val="6E6459"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Describe la arquitectura completa del ecosistema: cómo se relacionan los documentos entre sí y qué rol cumple cada uno.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Control documental</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9360"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2600"/>
+        <w:gridCol w:w="6760"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Código documental</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">SER-MAPA-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Versión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">2.0</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Estado documental</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Fecha de publicación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">16 de julio de 2026</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Propietario</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Fundadora del Método (custodia); mantenimiento por Redactor Institucional</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Documentos relacionados</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">SER-REF-01, SER-NM-01, SER-MM-01, SER-PIC-01, SER-BIB-V01, SER-POE-01, SER-GF-01, SER-FAP-01, SER-BRUJULA-01, SER-IAOS-01, SER-CLAUDE-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E6EDE3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Próxima revisión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6760"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Al incorporarse un nuevo documento oficial al ecosistema</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="260"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1. Principio organizador</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:left w:val="single" w:color="E2775E" w:sz="16" w:space="10"/>
+        </w:pBdr>
+        <w:shd w:fill="F6DED3" w:val="clear"/>
+        <w:spacing w:after="220" w:before="140" w:line="320"/>
+        <w:ind w:left="380"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:cs="Georgia" w:eastAsia="Georgia" w:hAnsi="Georgia"/>
+          <w:i/>
+          <w:iCs/>
+          <w:color w:val="C85F49"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Cada documento responde a una pregunta distinta.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Cuando una pregunta cambia de naturaleza, nace un documento nuevo. Esto evita duplicar información y mantiene cada componente especializado en una función específica.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2. Arquitectura general</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 1 — Identidad · ¿Quién es Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Núcleo Maestro Serenamente (SER-NM-01). Nada dentro de Serenamente puede contradecir este documento.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 2 — Método · ¿Cómo funciona Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Manual del Método Serenamente (SER-MM-01): fundamentos, ingeniería de la regulación, arquitectura de las experiencias, el facilitador y el SMR.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 3 — Investigación · ¿Cómo aprende Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Protocolo de Investigación Científica del Método Serenamente — PIC-MS (SER-PIC-01).</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 4 — Conocimiento · ¿Qué sabe Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Biblioteca Metodológica (SER-BIB-Vxx, por volumen). Representa el patrimonio intelectual del método.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 5 — Aplicación · ¿Cómo se vive Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Protocolos de Experiencia (uno por experiencia: Experiencia Inicial, cuidadores, regulación breve, sueño, ansiedad, futuras experiencias).</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Guion de Facilitación (SER-GF-01) — traduce el Manual y la Biblioteca en lenguaje hablado para cada Protocolo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Ficha de Apoyo al Participante (SER-FAP-01) — material entregado en la Fase VII (Cierre).</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Instrumentos de Evaluación — Pauta de Observación Post-Experiencia (SER-POE-01), uno por experiencia realizada.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 6 — Formación · ¿Cómo se enseña Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Formación, certificación, evaluación, supervisión, desarrollo profesional.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Nivel 7 — Tecnología · ¿Cómo se escala Serenamente?</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Equilibria: plataforma tecnológica que implementa digitalmente el Método Serenamente manteniendo fidelidad a sus principios. No lo reemplaza.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Criterio transversal — libertad creativa comercial</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:shd w:fill="E6EDE3" w:val="clear"/>
+        <w:spacing w:after="60" w:before="100"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="4E6653"/>
+          <w:sz w:val="19"/>
+          <w:szCs w:val="19"/>
+        </w:rPr>
+        <w:t xml:space="preserve">NOTA DE GOBERNANZA (SER-REF-01, R10)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="260" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">La expresión comercial de Serenamente dispone de libertad creativa. Ningún documento, protocolo, paleta, tipografía, componente, recurso visual o pieza anterior impone una estética obligatoria. Cada encargo puede comenzar desde una dirección nueva definida por su objetivo, público, canal y contexto. Solo permanecen como controles transversales obligatorios la veracidad, la seguridad, la legalidad, los derechos de uso, la privacidad y la accesibilidad. SER-BCS-01 se conserva únicamente como antecedente histórico obsoleto.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3. Flujo del conocimiento</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Investigación (SER-PIC-01)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Evaluación metodológica (SMR — SER-MM-01, Cap. 5)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Biblioteca (SER-BIB-Vxx)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Validación práctica (SER-POE-01)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Protocolos y Guion de Facilitación (SER-GF-01)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Experiencias</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Retroalimentación (nueva Pauta de Observación)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="80" w:line="310"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Nueva investigación</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="260" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Este ciclo constituye el mecanismo permanente de evolución del método.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">4. Gobernanza metodológica — responsables por pregunta</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9360"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5560"/>
+        <w:gridCol w:w="3800"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Pregunta de gobernanza</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Responsable</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Contradice el Núcleo Maestro (SER-NM-01)?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Fundadora del Método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Respeta el Manual del Método (SER-MM-01)?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Arquitecto Metodológico</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Tiene respaldo suficiente según el PIC-MS (SER-PIC-01)?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Investigador Científico</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Debe incorporarse a la Biblioteca (SER-BIB-Vxx)?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Redactor Institucional (con visto bueno del Arquitecto Metodológico)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Modifica algún Protocolo de Experiencia o el Guion de Facilitación?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFDF8" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Arquitecto Metodológico, validado en campo por la Fundadora del Método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5560"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">¿Impacta Equilibria?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3800"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="4E6653"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Responsable tecnológico designado (rol a formalizar junto con la documentación de Equilibria)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="200"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">5. Relación entre Inteligencia Artificial y Serenamente</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">ChatGPT — arquitectura metodológica, diseño conceptual, integración, coherencia, evolución del método.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Claude — redacción institucional, integración documental, organización del conocimiento, versionado de documentos.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Gemini — investigación científica, revisión de evidencia, análisis bibliográfico, actualización del conocimiento.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="70" w:line="300"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Helen (Fundadora del Método) — validación práctica, observación clínica, experiencia directa con participantes, refinamiento del método.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="240" w:line="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:color w:val="3C3430"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Cada uno aporta una perspectiva distinta. Ninguno reemplaza al otro.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">6. Declaración final</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:left w:val="single" w:color="E2775E" w:sz="16" w:space="10"/>
+        </w:pBdr>
+        <w:shd w:fill="F6DED3" w:val="clear"/>
+        <w:spacing w:after="220" w:before="140" w:line="320"/>
+        <w:ind w:left="380"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:cs="Georgia" w:eastAsia="Georgia" w:hAnsi="Georgia"/>
+          <w:i/>
+          <w:iCs/>
+          <w:color w:val="C85F49"/>
+          <w:sz w:val="22"/>
+          <w:szCs w:val="22"/>
+        </w:rPr>
+        <w:t xml:space="preserve">El ecosistema Serenamente ha sido diseñado para crecer sin perder coherencia. Cada documento cumple una función específica dentro de una arquitectura común, permitiendo que la investigación, la metodología, la formación, la tecnología y la práctica evolucionen de manera integrada al servicio del bienestar de las personas.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Historial de cambios</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9360"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1600"/>
+        <w:gridCol w:w="1000"/>
+        <w:gridCol w:w="5260"/>
+        <w:gridCol w:w="1500"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Fecha</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Versión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5260"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Cambio</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1500"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="E2775E" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Resolución asociada</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1600"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">30 de junio de 2026</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">1.0</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5260"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Incorporación del Núcleo Maestro como documento propio; se agregan al Nivel 5 el Guion de Facilitación, la Ficha de Apoyo al Participante y los Instrumentos de Evaluación; se formaliza la capa transversal de Expresión Visual; se agrega la tabla de responsables de gobernanza.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1500"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:left w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:bottom w:val="single" w:color="EAD9C9" w:sz="1"/>
+              <w:right w:val="single" w:color="EAD9C9" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="FFFFFF" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="100"/>
+              <w:left w:type="dxa" w:w="140"/>
+              <w:bottom w:type="dxa" w:w="100"/>
+              <w:right w:type="dxa" w:w="140"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:cs="Calibri" w:eastAsia="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:i w:val="false"/>
+                <w:iCs w:val="false"/>
+                <w:color w:val="3C3430"/>
+                <w:sz w:val="20"/>
+                <w:szCs w:val="20"/>
+              </w:rPr>
+              <w:t xml:space="preserve">R2, R4, R6, R9, R10</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:p><w:r><w:t xml:space="preserve">16 de julio de 2026</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t xml:space="preserve">2.0</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t xml:space="preserve">Se retira toda obligatoriedad estética del ecosistema comercial y se establece libertad creativa, conservando exclusivamente controles de veracidad, seguridad, legalidad, derechos de uso, privacidad y accesibilidad. SER-BCS-01 queda como antecedente histórico.</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t xml:space="preserve">Autorización explícita de Helen Araya, Fundadora del Método, 16-07-2026</w:t></w:r></w:p></w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200"/>
+      </w:pPr>
+    </w:p>
+    <w:sectPr>
+      <w:headerReference w:type="default" r:id="rId7"/>
+      <w:footerReference w:type="default" r:id="rId8"/>
+      <w:pgSz w:w="12240" w:h="15840" w:orient="portrait"/>
+      <w:pgMar w:top="1300" w:right="1300" w:bottom="1300" w:left="1300" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:pgNumType/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

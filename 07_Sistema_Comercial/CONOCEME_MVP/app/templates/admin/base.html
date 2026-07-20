@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Panel interno · CONÓCEME{% endblock %}
+{% block content %}
+<header class="admin-header">
+  <a href="{{ url_for('admin.registrations') }}"><strong>CONÓCEME</strong> · Operación</a>
+  <form method="post" action="{{ url_for('admin.logout') }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <button class="link-button" type="submit">Cerrar sesión</button>
+  </form>
+</header>
+<main class="admin-main">{% block admin_content %}{% endblock %}</main>
+{% endblock %}

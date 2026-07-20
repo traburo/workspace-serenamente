@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Inscripción recibida · CONÓCEME{% endblock %}
+{% block content %}
+<main class="result-shell">
+  <section class="result-card">
+    <p class="eyebrow">Inscripción recibida</p>
+    <h1>Gracias por dar este paso.</h1>
+    <p>Registramos tu solicitud para <strong>{{ registration.event_name }}</strong>.</p>
+    <p>Tu referencia es <code>{{ registration.public_reference }}</code>.</p>
+    {% if staging_mode %}<div class="status-note">Registro de prueba creado. No realices ninguna transferencia: la confirmación se simulará desde el panel.</div>
+    {% else %}<div class="status-note">La inscripción está pendiente de verificación de pago. Las instrucciones se enviarán cuando el número de cuenta esté confirmado. Puedes enviar el comprobante a awmc18@gmail.com.</div>{% endif %}
+    <a class="button-link" href="https://wa.me/{{ whatsapp }}" rel="noopener">Contactar por WhatsApp</a>
+  </section>
+</main>
+{% endblock %}

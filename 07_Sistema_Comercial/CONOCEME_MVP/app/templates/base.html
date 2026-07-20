@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inscripción a la experiencia presencial CONÓCEME de Serenamente.">
+  <title>{% block title %}CONÓCEME · Serenamente{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='operations.css') }}">
+</head>
+<body>
+  {% if staging_mode %}<div class="staging-banner" role="status">ENTORNO DE PRUEBA · No realizar transferencias ni ingresar datos reales</div>{% endif %}
+  {% block content %}{% endblock %}
+</body>
+</html>

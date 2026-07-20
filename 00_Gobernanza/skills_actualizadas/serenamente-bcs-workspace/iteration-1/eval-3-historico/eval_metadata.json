@@ -1,0 +1,10 @@
+{
+  "eval_id": 3,
+  "eval_name": "reproduccion-historica-explicita",
+  "prompt": "Necesito reconstruir exactamente una antigua ficha diseñada bajo SER-BCS-01 para conservarla en el archivo histórico.",
+  "assertions": [
+    "Consulta SER-BCS-01 solo por la solicitud histórica.",
+    "Identifica la salida como histórica.",
+    "No aplica ese sistema a piezas nuevas."
+  ]
+}

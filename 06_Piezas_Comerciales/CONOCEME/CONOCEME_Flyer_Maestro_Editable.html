@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CONÓCEME — Serenamente</title>
+  <style>
+    :root {
+      --coral: #C85F49;
+      --coral-claro: #E2775E;
+      --salvia: #4E6653;
+      --crema: #FBF6EE;
+      --tinta: #3C3430;
+      --salvia-suave: #E8EEE8;
+      --coral-suave: #F6E3DC;
+      --dorado: #B79B64;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: var(--crema);
+      color: var(--tinta);
+    }
+
+    body {
+      font-family: Calibri, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .flyer {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      padding: 54px 62px 48px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 91% 8%, rgba(226,119,94,.13), transparent 24%),
+        radial-gradient(circle at 4% 66%, rgba(78,102,83,.09), transparent 25%),
+        var(--crema);
+    }
+
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+      z-index: 2;
+    }
+
+    .brand {
+      color: var(--salvia);
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 5px;
+    }
+
+    .promise {
+      margin-top: 5px;
+      color: var(--coral);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    .badge {
+      padding: 10px 19px;
+      border-radius: 999px;
+      background: var(--coral-suave);
+      color: var(--coral);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 58% 42%;
+      min-height: 510px;
+      padding-top: 36px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .eyebrow {
+      margin-bottom: 10px;
+      color: var(--coral);
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--salvia);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 92px;
+      font-weight: 400;
+      line-height: .96;
+      letter-spacing: -3px;
+    }
+
+    .descriptor {
+      max-width: 525px;
+      margin: 18px 0 19px;
+      color: var(--tinta);
+      font-size: 23px;
+      line-height: 1.25;
+    }
+
+    .main-phrase {
+      max-width: 500px;
+      margin: 0;
+      padding-left: 19px;
+      border-left: 4px solid var(--coral);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 28px;
+      line-height: 1.22;
+    }
+
+    .illustration {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 4px;
+    }
+
+    .illustration svg {
+      width: 420px;
+      height: 420px;
+      overflow: visible;
+      filter: drop-shadow(0 16px 22px rgba(60,52,48,.08));
+    }
+
+    .benefits-label {
+      margin: 2px 0 13px;
+      color: var(--salvia);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 13px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .benefit {
+      min-height: 132px;
+      padding: 20px 15px 17px;
+      border: 1px solid rgba(78,102,83,.12);
+      border-radius: 20px;
+      background: rgba(255,255,255,.56);
+      box-shadow: 0 9px 28px rgba(60,52,48,.055);
+    }
+
+    .benefit-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+      background: var(--salvia-suave);
+      color: var(--salvia);
+      font-family: Georgia, serif;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .benefit p {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .experience {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .mode-card, .kit-card {
+      border-radius: 22px;
+      padding: 23px 22px;
+    }
+
+    .mode-card {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      background: var(--salvia);
+      color: var(--crema);
+    }
+
+    .duration {
+      min-width: 134px;
+      border-right: 1px solid rgba(251,246,238,.32);
+      font-family: Georgia, serif;
+      font-size: 25px;
+      line-height: 1.08;
+    }
+
+    .duration small {
+      display: block;
+      margin-top: 5px;
+      font-family: Calibri, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+    }
+
+    .pairing {
+      font-size: 17px;
+      line-height: 1.24;
+    }
+
+    .pairing strong { color: #fff; }
+
+    .kit-card {
+      background: var(--coral-suave);
+      color: var(--tinta);
+    }
+
+    .kit-title {
+      color: var(--coral);
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+
+    .kit-card p {
+      margin: 4px 0 0;
+      font-size: 15.5px;
+      line-height: 1.22;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 104px;
+      gap: 11px;
+      margin-top: 22px;
+      padding: 20px 17px 19px;
+      border: 1px solid rgba(183,155,100,.42);
+      border-radius: 22px;
+      background: rgba(255,255,255,.55);
+    }
+
+    .field {
+      min-width: 0;
+      padding-right: 7px;
+      border-right: 1px solid rgba(78,102,83,.16);
+    }
+
+    .field:nth-child(4) { border-right: none; }
+
+    .field-label {
+      color: var(--coral);
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .field-value {
+      margin-top: 4px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.08;
+      word-break: break-word;
+    }
+
+    .qr {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 90px;
+      border: 1.5px dashed var(--salvia);
+      border-radius: 13px;
+      color: var(--salvia);
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .registration {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px;
+      padding: 17px 20px;
+      border-radius: 17px;
+      background: var(--coral);
+      color: #fff;
+    }
+
+    .registration strong {
+      font-size: 16px;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .registration span {
+      flex: 1;
+      font-size: 17px;
+      text-align: right;
+    }
+
+    .footer-note {
+      margin-top: 15px;
+      color: var(--salvia);
+      font-family: Georgia, serif;
+      font-size: 16px;
+      font-style: italic;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="flyer" aria-label="Flyer comercial de la experiencia Conóceme">
+    <header class="topline">
+      <div>
+        <div class="brand">SERENAMENTE</div>
+        <div class="promise">Serena tu mente.</div>
+      </div>
+      <div class="badge">EXPERIENCIA PRESENCIAL · CUPOS LIMITADOS</div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Dos generaciones · un encuentro</div>
+        <h1>CONÓCEME</h1>
+        <p class="descriptor">Experiencia para adolescentes de 12 a 17 años y un adulto significativo.</p>
+        <p class="main-phrase">A veces no falta amor.<br>Falta comprendernos.</p>
+      </div>
+
+      <div class="illustration" aria-hidden="true">
+        <svg viewBox="0 0 400 400" role="img">
+          <defs>
+            <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#E2775E"/>
+              <stop offset="1" stop-color="#C85F49"/>
+            </linearGradient>
+          </defs>
+          <circle cx="213" cy="192" r="174" fill="#E8EEE8"/>
+          <path d="M65 268c18-67 56-102 111-108 7-42 34-70 70-70 43 0 76 38 72 84 35 21 57 57 61 107-66 32-235 39-314-13z" fill="#FBF6EE" opacity=".8"/>
+          <circle cx="152" cy="153" r="50" fill="#D5A38F"/>
+          <path d="M102 155c0-58 31-83 66-75 25 6 42 30 38 61-17-17-37-25-61-22-16 2-30 14-43 36z" fill="#4E6653"/>
+          <path d="M95 290c2-65 22-101 60-105 40-4 67 38 72 103z" fill="#C85F49"/>
+          <circle cx="276" cy="142" r="58" fill="#BF8978"/>
+          <path d="M222 138c-1-40 23-73 58-75 39-2 67 32 62 80-19-14-38-19-57-16-26 4-44 9-63 11z" fill="#3C3430"/>
+          <path d="M209 292c6-72 34-110 76-108 43 2 68 41 69 107z" fill="#4E6653"/>
+          <path d="M181 223c31 17 60 17 87-2" fill="none" stroke="#B79B64" stroke-width="7" stroke-linecap="round"/>
+          <path d="M208 214c18-19 34-18 47 2-13 18-28 26-47-2z" fill="url(#warm)"/>
+          <path d="M202 320c28 14 55 14 82 0" fill="none" stroke="#B79B64" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+          <circle cx="341" cy="69" r="8" fill="#B79B64"/>
+          <circle cx="363" cy="93" r="4" fill="#C85F49"/>
+          <path d="M58 101c30-25 52-31 73-28" fill="none" stroke="#B79B64" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <div class="benefits-label">Un espacio para comprenderse, escucharse y fortalecer su vínculo</div>
+    <section class="benefits" aria-label="Elementos de la experiencia">
+      <article class="benefit"><div class="benefit-icon">01</div><p>Comprender el cerebro adolescente.</p></article>
+      <article class="benefit"><div class="benefit-icon">02</div><p>Escucharse desde una nueva perspectiva.</p></article>
+      <article class="benefit"><div class="benefit-icon">03</div><p>Practicar regulación emocional en dupla.</p></article>
+      <article class="benefit"><div class="benefit-icon">04</div><p>Crear un compromiso para continuar en casa.</p></article>
+    </section>
+
+    <section class="experience">
+      <div class="mode-card">
+        <div class="duration">2 h 30 min<small>Duración aproximada</small></div>
+        <div class="pairing"><strong>Inscripción por dupla</strong><br>Adolescente + adulto significativo</div>
+      </div>
+      <div class="kit-card">
+        <div class="kit-title">Kit Serenamente incluido</div>
+        <p>Recursos y ejercicios para continuar la experiencia en casa.</p>
+      </div>
+    </section>
+
+    <section class="details" aria-label="Datos editables de la experiencia">
+      <div class="field"><div class="field-label">Fecha</div><div class="field-value">[FECHA]</div></div>
+      <div class="field"><div class="field-label">Horario</div><div class="field-value">[HORARIO]</div></div>
+      <div class="field"><div class="field-label">Lugar</div><div class="field-value">[LUGAR]</div></div>
+      <div class="field"><div class="field-label">Valor por dupla</div><div class="field-value">[$________]</div></div>
+      <div class="qr">ESPACIO<br>PARA QR</div>
+    </section>
+
+    <div class="registration"><strong>Inscripciones</strong><span>[TELÉFONO / WHATSAPP / INSTAGRAM / SITIO WEB]</span></div>
+    <div class="footer-note">Comprendernos también es una forma de cuidarnos.</div>
+  </main>
+</body>
+</html>

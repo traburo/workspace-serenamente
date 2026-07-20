@@ -1,0 +1,4105 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="40"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="888888"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>SER-BRUJULA-01 · v1.0</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="888888"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>PUERTA DE ENTRADA — Primer documento para toda Inteligencia Artificial que colabore con Serenamente</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="40"/>
+        </w:rPr>
+        <w:t>Brújula del Ecosistema Serenamente</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="320"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="444444"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Primer documento de lectura obligatoria para cualquier Inteligencia Artificial —Claude, ChatGPT, Gemini o futuras incorporaciones— antes de consultar cualquier otro archivo del ecosistema. Orienta; no reemplaza, resume ni redefine ningún documento oficial.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>Control documental</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="auto" w:w="0"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:color="auto"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="4920"/>
+        <w:gridCol w:w="4920"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Código documental</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>SER-BRUJULA-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Versión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>2.0</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Estado documental</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>🟡 Propuesto — regla de libertad creativa aprobada; documento completo pendiente de incorporación formal</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Fecha de propuesta</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>16 de julio de 2026</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Propietario</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Redactor Institucional (redacción y mantenimiento del Catálogo, Cap. V); Fundadora del Método (autorización de incorporación); Arquitecto Metodológico (validación de la ruta de decisión, Cap. VIII)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Documentos relacionados</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>SER-NM-01, SER-MM-01, SER-PIC-01, SER-BIB-V01, SER-MAPA-01, SER-DD-00, SER-GF-01, SER-FAP-01, SER-POE-01, SER-CLAUDE-01, SER-IAOS-01, SER-REF-01 (referenciado; no disponible en este repositorio)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2520"/>
+            <w:shd w:val="clear" w:fill="F3F1EC"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>Próxima revisión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7560"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="20"/>
+              </w:rPr>
+              <w:t>El Catálogo (Cap. V) y el Estado de la arquitectura (Cap. X) se actualizan cada vez que se incorpora, completa o retira un documento oficial. Los demás capítulos solo se revisan ante un cambio real en la arquitectura del ecosistema</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="555555"/>
+          <w:sz w:val="20"/>
+        </w:rPr>
+        <w:t>Nota sobre el estado de este documento: este documento ha sido redactado a solicitud directa de la Fundadora del Método, tras un recorrido completo del repositorio documental oficial. Su incorporación formal —incluida la actualización de SER-MAPA-01 para reflejar las capas transversales que esta Brújula ya documenta— requiere confirmación explícita, siguiendo el mismo procedimiento aplicado a los demás documentos propuestos del ecosistema. Ninguna Inteligencia Artificial se autoasigna autoridad de gobernanza: este documento propone la puerta de entrada; su incorporación la decide la Fundadora del Método.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>I. Propósito y función de este documento</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Este documento es la puerta de entrada oficial al ecosistema documental de Serenamente. Su función es permitir que cualquier Inteligencia Artificial que se incorpore a una conversación, un proyecto o una tarea relacionada con Serenamente —Claude, ChatGPT, Gemini, o cualquier otra que se incorpore en el futuro— comprenda en pocos minutos qué es Serenamente, cómo está organizado su conocimiento, qué principios lo sostienen y cómo debe comportarse antes de tocar un documento de contenido.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>No es un resumen de los documentos existentes. Ningún capítulo de este documento reemplaza, reformula ni condensa el contenido de otro documento oficial: cuando corresponde profundizar, este documento dirige explícitamente hacia el documento que debe consultarse. Su valor no está en lo que explica, sino en lo que ahorra: reduce al mínimo la cantidad de documentos que una Inteligencia Artificial necesita cargar antes de trabajar con criterio, sin sacrificar la comprensión del conjunto.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Este documento responde, ante todo, a una sola pregunta: ¿cómo debo entender y abordar Serenamente antes de comenzar a trabajar? Toda su estructura se organiza en función de esa pregunta, no en función de explicar el método, la ciencia o la tecnología detrás de Serenamente — para eso existen los documentos hacia los que este documento dirige.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Debe ser, en la práctica, el primer documento que lee cualquier Inteligencia Artificial al incorporarse a una tarea de Serenamente, y el único que necesita leer por completo antes de decidir qué más necesita consultar.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>II. Qué es Serenamente, en síntesis</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Serenamente es una metodología estructurada de acompañamiento preventivo que conduce a una persona desde un estado de activación fisiológica y sobrecarga emocional hacia un estado de regulación profunda, bienestar psicológico y mayor sensación de seguridad interna. No reemplaza la psicoterapia ni realiza diagnósticos: crea un espacio seguro donde el cuerpo y la mente pueden disminuir su nivel de alerta.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Su promesa institucional es breve: serena tu mente. Su principio canónico —la regulación como punto de partida, y no como resultado final— tiene una redacción única y protegida, citada aquí solo por referencia (SER-NM-01, §2; SER-REF-01, R3): ninguna Inteligencia Artificial debe reformularla.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Esta síntesis existe únicamente para orientar. La autoridad de identidad completa reside siempre en el Núcleo Maestro Serenamente (SER-NM-01); ante cualquier duda sobre qué es Serenamente, qué promete o qué no promete, ese es el único documento que debe consultarse y citarse.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>III. Cómo está organizado el ecosistema, en síntesis</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>El conocimiento de Serenamente se organiza en siete niveles verticales, cada uno respondiendo una pregunta distinta, y un número creciente de capas transversales que se aplican sobre varios niveles a la vez. El detalle completo de esta arquitectura —incluida la tabla de gobernanza por pregunta— vive en el Mapa Maestro del Ecosistema (SER-MAPA-01); aquí solo se sintetiza lo suficiente para ubicarse.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="auto" w:w="0"/>
+        <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:color="auto"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3280"/>
+        <w:gridCol w:w="3280"/>
+        <w:gridCol w:w="3280"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Nivel</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Pregunta que responde</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Documento(s) actual(es)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>1 · Identidad</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Quién es Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-NM-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>2 · Método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Cómo funciona Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-MM-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>3 · Investigación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Cómo aprende Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-PIC-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>4 · Conocimiento</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Qué sabe Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-BIB-Vxx (por volumen)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>5 · Aplicación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Cómo se vive Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-GF-01, SER-FAP-01, SER-POE-01; Protocolos de Experiencia independientes aún por formalizar</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>6 · Formación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Cómo se enseña Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Sin documentos formalizados a la fecha</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>7 · Tecnología</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>¿Cómo se escala Serenamente?</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Equilibria; sin documentación propia a la fecha</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>A estos siete niveles se suman capas transversales de lenguaje, colaboración y control responsable. SER-DD-00 gobierna la terminología válida; SER-IAOS-01 y los protocolos específicos gobiernan la colaboración con Inteligencias Artificiales. En el ecosistema comercial, la expresión visual no es una capa normativa: cada encargo dispone de libertad creativa. Solo son obligatorios los controles de veracidad, seguridad, legalidad, derechos de uso, privacidad y accesibilidad.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="555555"/>
+          <w:sz w:val="20"/>
+        </w:rPr>
+        <w:t>Nota de transparencia: al momento de esta versión, el Mapa Maestro (SER-MAPA-01) formaliza explícitamente la capa de diseño editorial, pero su texto aún no incorpora la capa de lenguaje ni la capa de colaboración con Inteligencias Artificiales como capas transversales reconocidas. Esta Brújula ya las refleja, porque su función es mantener la fotografía más actualizada posible del ecosistema; corresponde al Redactor Institucional actualizar SER-MAPA-01 para que ambos documentos permanezcan alineados.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>IV. Los principios que sostienen todo el ecosistema, en síntesis</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Cada familia de documentos protege un conjunto de principios propio. Esta síntesis existe para que ninguna Inteligencia Artificial actúe sin haber visto, al menos una vez, el mapa completo de lo que Serenamente valora — no para sustituir su desarrollo, que vive siempre en el documento de origen.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>De identidad (SER-NM-01)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>la regulación es el punto de partida, no el resultado final; el método no diagnostica ni promete resolver el sufrimiento, promete un espacio seguro.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>Del método (SER-MM-01, Cap. 1)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>la regulación precede al cambio; comprender también es una forma de cuidado; el cuerpo es la puerta de entrada; el silencio también acompaña; toda experiencia debe sentirse segura.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>De la investigación (SER-PIC-01, Cap. III)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>objetividad, neutralidad, transparencia, prudencia, seguridad y actualización continua; ningún recurso es definitivo, porque la identidad del método reside en sus principios, no en sus herramientas.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>Del lenguaje (SER-DD-00, Cap. II)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>cada concepto pertenece a una única familia; los conceptos se definen por su naturaleza, no por el canal tecnológico que los entrega; ninguna definición es circular; nada de nivel inferior contradice al Núcleo Maestro.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>De la colaboración entre Inteligencias Artificiales (SER-IAOS-01, Cap. II)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>preservar coherencia, minimizar contradicciones, colaborar sin competir, respetar la gobernanza, mantener trazabilidad, ser transparente, y actuar con humildad frente a la incertidumbre.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Estos principios no se repiten aquí en su forma completa: cada uno vive, con su desarrollo y su fundamento, en el documento que le corresponde.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>V. Catálogo de documentos oficiales</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Fotografía completa del repositorio documental de Serenamente a la fecha de esta versión. Esta tabla es, junto con el Capítulo X, la parte de esta Brújula que se actualiza con mayor frecuencia.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="auto" w:w="0"/>
+        <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:color="auto"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1968"/>
+        <w:gridCol w:w="1968"/>
+        <w:gridCol w:w="1968"/>
+        <w:gridCol w:w="1968"/>
+        <w:gridCol w:w="1968"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Código</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Documento</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Ubicación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Estado</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Consúltalo cuando…</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-NM-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Núcleo Maestro Serenamente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 1 · Identidad</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites resolver una duda de identidad, verificar si algo contradice la esencia del método, o citar su enunciado canónico.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-MM-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Manual del Método Serenamente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 2 · Método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites las 7 fases de una experiencia, el rol del facilitador, o el Sistema Metodológico de Regulación (SMR).</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-PIC-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Protocolo de Investigación Científica (PIC-MS)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 3 · Investigación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites evaluar, incorporar o descartar un recurso metodológico, o consultar la jerarquía de evidencia.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-BIB-V01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Biblioteca Metodológica, Volumen 1</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 4 · Conocimiento</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente (volumen vivo)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites la ficha de un recurso ya investigado: su fundamento, evidencia o precauciones.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-GF-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Guion de Facilitación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 5 · Aplicación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites el lenguaje hablado concreto de una experiencia, o sus adaptaciones ante imprevistos.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-FAP-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Ficha de Apoyo al Participante</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 5 · Aplicación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites el material entregado al participante al cierre de una experiencia.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-POE-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Pauta de Observación Post-Experiencia</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Nivel 5 · Instrumentos</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente (plantilla)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites registrar lo observado en una experiencia real para alimentar una Decisión PIC-MS.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-MAPA-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Mapa Maestro del Ecosistema</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Arquitectura general</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟢 Vigente</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites el detalle completo de cómo se relacionan los niveles, o la tabla de gobernanza por pregunta.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-BCS-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Sistema de Diseño Editorial (antecedente histórico)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Archivo histórico</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🔴 Obsoleto</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites estudiar o reproducir expresamente el sistema visual histórico; nunca para gobernar piezas nuevas.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-DD-00</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Constitución del Lenguaje Oficial</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Capa transversal · semántica</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟡 En revisión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites verificar si un término pertenece a una familia semántica válida, o introducir un concepto nuevo.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-CLAUDE-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Protocolo Operacional de Claude</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Capa de colaboración IA</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟡 Propuesto</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Seas Claude y necesites el detalle de tu rol específico dentro del ecosistema.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-IAOS-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Sistema Operativo para Inteligencias Artificiales</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Capa de colaboración IA</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>🟡 Propuesto</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Necesites el procedimiento general para clasificar tareas, gestionar contexto o escalar decisiones.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>SER-REF-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Registro de Resoluciones Metodológicas</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Capa de gobernanza</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>⚠ Referenciado, no disponible</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1968"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="16"/>
+              </w:rPr>
+              <w:t>Veas una cita &quot;(SER-REF-01, Rx)&quot; en otro documento: trátala como el registro de una decisión ya tomada, no asumas acceso a su contenido.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="555555"/>
+          <w:sz w:val="20"/>
+        </w:rPr>
+        <w:t>Este documento (SER-BRUJULA-01) no se autocataloga en esta tabla: es la puerta de entrada, no un contenido más que deba localizarse dentro de ella.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VI. Cómo leer un documento oficial de Serenamente</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Todo documento oficial comparte una misma gramática. Reconocerla evita errores de lectura que ninguna otra guía del ecosistema explica de forma unificada.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>6.1 El código documental</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Todo documento posee un código con la forma SER-XX-NN (ej. SER-MM-01), registrado en el Catálogo del Capítulo V. Ese código es su dirección única: se usa para citar, para verificar versión y estado, y para distinguir un documento oficial de material de apoyo —borradores, notas de trabajo, resúmenes preparados para otra Inteligencia Artificial—, que nunca se trata como fuente normativa.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>6.2 El Control documental</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Cada documento abre con una tabla de Control documental que indica su código, versión, estado, fecha, propietario, documentos relacionados y próxima revisión. Antes de citar o modificar un documento, esa tabla —no el recuerdo de una lectura anterior— es la fuente de verdad sobre su vigencia.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>6.3 Tres sistemas de color que no deben confundirse</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>El ecosistema utiliza semáforos de color en tres sistemas distintos, y los tres pueden coincidir en la misma paleta (verde, amarillo, azul, naranja, rojo). Confundirlos entre sí es uno de los errores de lectura más fáciles de cometer:</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Estado documental — describe al documento en sí. 🟢 Vigente · 🟡 Propuesto o En revisión.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Estado de Laboratorio (SER-PIC-01, Sección VIII) — describe en qué punto del proceso de investigación se encuentra un recurso metodológico. ⚪ Propuesto · 🔵 En investigación científica · 🟡 En validación metodológica · 🟠 En validación práctica · 🟢 Incorporado oficialmente · 🔴 Descartado.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Decisión PIC-MS (SER-PIC-01, Etapa 6) — describe la resolución final sobre un recurso, una vez completado el proceso. 🟢 Incorporado · 🟡 Incorporado con restricciones · 🔵 Mantenerse en investigación · 🔴 Descartado.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Ante cualquier color, identifica primero a cuál de los tres sistemas pertenece antes de interpretar su significado. El calificador que lo precede en el texto (&quot;Estado documental&quot;, &quot;Estado de Laboratorio&quot; o &quot;Decisión PIC-MS&quot;) siempre lo indica.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VII. Cómo colaborar: la postura operacional</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>La postura completa que debe adoptar cualquier Inteligencia Artificial al trabajar con Serenamente —cómo comprende una solicitud, cómo administra su contexto, cómo clasifica una tarea y cómo escala lo que no le corresponde— está desarrollada en SER-IAOS-01. Aquí solo se resume su esencia, para que quede claro antes de avanzar al resto de este documento:</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  No decidas lo que no te corresponde: verifica quién tiene la autoridad antes de resolver.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Verifica antes de asumir: consulta el estado vigente de un documento en lugar de recordarlo.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Declara la duda en lugar de resolverla por plausibilidad.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Trabaja de forma trazable: toda entrega indica qué consultaste y qué queda pendiente de validación.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>El desarrollo completo de esta postura —el ciclo de vida de una solicitud, la clasificación automática de tareas, la gestión de contexto y el mecanismo de escalamiento— vive en SER-IAOS-01. Si tu Inteligencia Artificial cuenta con un protocolo operacional específico —por ejemplo, SER-CLAUDE-01 para Claude—, esa es tu siguiente lectura obligatoria antes de comenzar a trabajar.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>VIII. Ruta de decisión — qué consultar según la tarea</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>El Catálogo del Capítulo V está organizado por documento. Esta ruta está organizada por tarea: una entrada inversa para cuando se sabe qué se necesita hacer, pero no qué documento lo resuelve.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="auto" w:w="0"/>
+        <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:color="auto"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3280"/>
+        <w:gridCol w:w="3280"/>
+        <w:gridCol w:w="3280"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Tu tarea es…</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Consulta primero</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Consulta también si corresponde</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Redactar contenido institucional nuevo</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-IAOS-01 y, si corresponde, tu protocolo específico (ej. SER-CLAUDE-01)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>El documento del nivel correspondiente + SER-DD-00 para el vocabulario</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Evaluar si un recurso nuevo puede incorporarse al método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-PIC-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-MM-01 (SMR, Cap. 5) para verificar compatibilidad metodológica</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Diseñar o modificar una experiencia</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-MM-01 (Cap. 3)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-GF-01 y SER-BIB-V01 para contenido; sin plantilla estética obligatoria</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Crear material visual o para participantes</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Brief actual y libertad creativa comercial</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-FAP-01 solo por contenido cuando corresponda; verificar veracidad, seguridad, legalidad, derechos, privacidad y accesibilidad</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Tomar o evaluar una decisión de arquitectura</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-MAPA-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Escalar al Arquitecto Metodológico (SER-IAOS-01, Cap. VIII)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Verificar si algo contradice la identidad del método</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-NM-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>—</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Colaborar con otra Inteligencia Artificial o dudar de tu propio rol</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-IAOS-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-MAPA-01 (§5)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Resolver una contradicción entre documentos</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>SER-IAOS-01 (Cap. VIII, Gestión de incertidumbre)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3280"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Declarar y escalar; nunca decidir en silencio</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>IX. Primeros pasos al iniciar una colaboración</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Secuencia recomendada para los primeros minutos de cualquier sesión de trabajo relacionada con Serenamente:</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  1. Lee esta Brújula completa — si llegaste hasta aquí, ya lo hiciste.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  2. Identifica el tipo de tarea que tienes por delante (Capítulo VIII).</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  3. Abre únicamente los documentos que esa tarea requiere — no cargues todo el repositorio de una vez.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  4. Si tienes un protocolo operacional propio (ej. Claude → SER-CLAUDE-01), léelo antes de comenzar a trabajar.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  5. Verifica el estado documental de cualquier documento que vayas a citar o modificar (Capítulo VI).</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  6. Si tu tarea involucra vocabulario nuevo o ambiguo, revisa SER-DD-00.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  7. Si detectas una contradicción, un vacío o una decisión que excede tu rol, decláralo — no lo resuelvas por tu cuenta (SER-IAOS-01, Cap. VIII).</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  8. Trabaja. Al finalizar, entrega con trazabilidad: qué documentos consultaste, qué supuestos utilizaste y qué queda pendiente.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>X. Estado actual de la arquitectura — vacíos y desarrollos pendientes</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Fotografía honesta de lo que el ecosistema todavía no ha formalizado, a la fecha de esta versión. No son errores: son el punto natural de un ecosistema en crecimiento.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  SER-REF-01 (Registro de Resoluciones Metodológicas): citado constantemente por otros documentos como autoridad de cambios, pero no disponible en este repositorio. Trata cualquier referencia &quot;(SER-REF-01, Rx)&quot; como el registro de una decisión ya tomada, no como un documento consultable.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  SER-DD-01 (Diccionario de Dominio): subordinado a SER-DD-00, aún no redactado.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Protocolos de Experiencia como documentos independientes: por ahora, el Guion (SER-GF-01) y la Ficha (SER-FAP-01) existen para una experiencia de referencia, sin un código de Protocolo de Experiencia propio que los agrupe formalmente.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  Nivel 6 (Formación) y Nivel 7 (Tecnología / Equilibria): sin documentación propia todavía.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  SER-CHATGPT-01 y SER-GEMINI-01: protocolos operacionales específicos equivalentes a SER-CLAUDE-01, aún no redactados.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:after="100"/>
+        <w:ind w:left="360" w:hanging="240"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>•  SER-CLAUDE-01 y SER-IAOS-01 permanecen en estado 🟡 Propuesto, pendientes de confirmación formal por la Fundadora del Método.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Esta lista es, junto con el Catálogo del Capítulo V, la parte de esta Brújula que más rápido envejece. Se actualiza cada vez que el ecosistema incorpora o completa un documento.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>XI. Gobernanza y mantenimiento de este documento</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Esta Brújula fue diseñada con dos velocidades de cambio distintas, y quien la mantenga debe respetarlas.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>11.1 Capítulos de baja velocidad</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Los Capítulos I a IV, VI, VII, IX y XII describen el propósito de este documento, la identidad de Serenamente, la arquitectura general, los principios, las convenciones de lectura, la postura operacional, la secuencia de inicio y la declaración institucional. Están diseñados para permanecer válidos aunque el ecosistema tenga decenas o cientos de documentos más: solo deben editarse cuando cambia la arquitectura misma del ecosistema, no cuando se agrega un documento nuevo dentro de ella.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>11.2 Capítulos de alta velocidad</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Los Capítulos V (Catálogo), VIII (Ruta de decisión) y X (Vacíos) son secciones vivas: se actualizan de forma rutinaria, como una adición mecánica, cada vez que el ecosistema incorpora, completa o retira un documento oficial. Esta actualización no requiere reescribir el resto del documento ni constituye, por sí sola, una nueva versión mayor.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>11.3 Responsables</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>El Redactor Institucional mantiene actualizado el Catálogo (Cap. V) y el Estado de la arquitectura (Cap. X) cada vez que se incorpora un documento nuevo. El Arquitecto Metodológico valida que la Ruta de decisión (Cap. VIII) siga reflejando correctamente la arquitectura vigente. La Fundadora del Método autoriza cualquier cambio a los Capítulos I a IV y XII, y la incorporación formal de este documento al ecosistema.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>11.4 Límites de autoridad</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Esta Brújula no tiene autoridad sobre ningún otro documento del ecosistema. Ante cualquier conflicto entre lo que aquí se sintetiza y lo que establece el documento de origen, prevalece siempre el documento de origen. Esta Brújula orienta; no gobierna.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>11.5 Registro de incorporación</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="555555"/>
+          <w:sz w:val="20"/>
+        </w:rPr>
+        <w:t>Documento propuesto: SER-BRUJULA-01, v2.0. La regla de libertad creativa comercial fue aprobada expresamente por Helen Araya el 16 de julio de 2026. La incorporación completa de la Brújula continúa pendiente de validación arquitectónica y formalización de gobernanza; no se inventa una Resolución SER-REF-01.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="400" w:after="160"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="222222"/>
+          <w:sz w:val="28"/>
+        </w:rPr>
+        <w:t>XII. Declaración institucional</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Una brújula no decide el destino: ayuda a no perderlo de vista. Este documento no reemplaza el criterio de ninguna Inteligencia Artificial ni el de las personas que sostienen Serenamente; solo evita que, al llegar, cualquier colaborador automatizado empiece a trabajar sin saber en qué dirección está el norte.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="22"/>
+        </w:rPr>
+        <w:t>Serenamente existe para acompañar a las personas hacia la calma; los documentos que lo sostienen existen para que ese propósito no se pierda a medida que el ecosistema crece. Toda Inteligencia Artificial que use esta Brújula lo hace al servicio de esa continuidad, nunca en su lugar.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="280" w:after="120"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Georgia" w:hAnsi="Georgia"/>
+          <w:b/>
+          <w:i w:val="0"/>
+          <w:color w:val="333333"/>
+          <w:sz w:val="24"/>
+        </w:rPr>
+        <w:t>Historial de cambios</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="auto" w:w="0"/>
+        <w:tblLook w:firstColumn="1" w:firstRow="1" w:lastColumn="0" w:lastRow="0" w:noHBand="0" w:noVBand="1" w:val="04A0"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" w:color="auto"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2460"/>
+        <w:gridCol w:w="2460"/>
+        <w:gridCol w:w="2460"/>
+        <w:gridCol w:w="2460"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Fecha</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Versión</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Cambio</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+            <w:shd w:val="clear" w:fill="E7E2D6"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Estado de incorporación</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>2 de julio de 2026</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>1.0</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>Redacción inicial del documento, a solicitud directa de la Fundadora del Método, tras un recorrido completo del repositorio documental oficial. Diseñado como puerta de entrada única para cualquier Inteligencia Artificial que colabore con Serenamente.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2460"/>
+          </w:tcPr>
+          <w:p>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+                <w:b w:val="0"/>
+                <w:i w:val="0"/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="18"/>
+              </w:rPr>
+              <w:t>🟡 Propuesto — pendiente de confirmación e incorporación formal, y de actualización de SER-MAPA-01</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:p><w:r><w:t>16 de julio de 2026</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>2.0</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>Se elimina la ruta visual obligatoria y se establece que el trabajo comercial comienza desde el brief con libertad creativa. Los activos previos son opcionales y la revisión posterior se limita a veracidad, seguridad, legalidad, derechos de uso, privacidad y accesibilidad.</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>Regla aprobada por Helen Araya, Fundadora del Método, 16-07-2026; documento completo aún propuesto</w:t></w:r></w:p></w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="480"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri"/>
+          <w:b w:val="0"/>
+          <w:i w:val="0"/>
+          <w:color w:val="999999"/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Ecosistema Serenamente — documento propuesto para incorporación bajo revisión de SER-REF-01   ·   Página</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00FC693F" w:rsidRPr="0006063C" w:rsidSect="00034616">
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="1080" w:right="1200" w:bottom="1080" w:left="1200" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
