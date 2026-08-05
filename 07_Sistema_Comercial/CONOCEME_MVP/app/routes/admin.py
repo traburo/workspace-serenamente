@@ -13,6 +13,13 @@ from ..services.states import ALLOWED_TRANSITIONS, STATUS_LABELS
 admin_bp = Blueprint("admin", __name__, url_prefix="/admin")
 
 
+def _safe_csv_cell(value):
+    text = "" if value is None else str(value)
+    if text.startswith(("=", "+", "-", "@", "\t", "\r")):
+        return "'" + text
+    return text
+
+
 @admin_bp.route("/login", methods=["GET", "POST"])
 def login():
     error = None
@@ -107,9 +114,15 @@ def export_csv():
     ])
     for row in rows:
         writer.writerow([
-            row["public_reference"], row["adult_name"], row["email"],
-            row["whatsapp"], row["teen_first_name"], row["teen_age"],
-            STATUS_LABELS[row["status"]], row["source"], row["created_at"].isoformat(),
+            _safe_csv_cell(row["public_reference"]),
+            _safe_csv_cell(row["adult_name"]),
+            _safe_csv_cell(row["email"]),
+            _safe_csv_cell(row["whatsapp"]),
+            _safe_csv_cell(row["teen_first_name"]),
+            _safe_csv_cell(row["teen_age"]),
+            _safe_csv_cell(STATUS_LABELS[row["status"]]),
+            _safe_csv_cell(row["source"]),
+            _safe_csv_cell(row["created_at"].isoformat()),
         ])
     return Response(
         "\ufeff" + output.getvalue(), mimetype="text/csv; charset=utf-8",
