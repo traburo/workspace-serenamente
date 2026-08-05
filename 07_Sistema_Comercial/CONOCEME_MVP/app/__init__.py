@@ -15,6 +15,17 @@ def create_app(test_config=None, repository=None):
     if test_config:
         app.config.update(test_config)
 
+    if not app.config["TESTING"] and app.config["APP_ENV"] in {"staging", "production"}:
+        required_settings = (
+            "SECRET_KEY", "DATABASE_URL", "ADMIN_USERNAME",
+            "ADMIN_PASSWORD_HASH", "INTERNAL_JOB_SECRET",
+        )
+        missing = [name for name in required_settings if not app.config.get(name)]
+        if missing:
+            raise RuntimeError(
+                "Faltan variables obligatorias para un entorno protegido: " + ", ".join(missing)
+            )
+
     app.extensions["registration_repository"] = (
         repository or PostgresRegistrationRepository(app.config["DATABASE_URL"])
     )
@@ -26,6 +37,10 @@ def create_app(test_config=None, repository=None):
         response.headers.setdefault("X-Content-Type-Options", "nosniff")
         response.headers.setdefault("X-Frame-Options", "DENY")
         response.headers.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+        if app.config["SESSION_COOKIE_SECURE"]:
+            response.headers.setdefault(
+                "Strict-Transport-Security", "max-age=31536000; includeSubDomains"
+            )
         response.headers.setdefault(
             "Content-Security-Policy",
             "default-src 'self'; style-src 'self'; img-src 'self' data:; "

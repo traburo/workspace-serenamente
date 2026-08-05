@@ -1,10 +1,13 @@
 import os
 
 
+
+
 class Config:
+    APP_ENV = os.getenv("APP_ENV", "development").lower()
     DEBUG = os.getenv("FLASK_DEBUG", "0") == "1"
     TESTING = False
-    SECRET_KEY = os.getenv("SECRET_KEY", "local-development-change-me")
+    SECRET_KEY = os.getenv("SECRET_KEY", "")
     DATABASE_URL = os.getenv("DATABASE_URL", "")
     APP_BASE_URL = os.getenv("APP_BASE_URL", "http://127.0.0.1:5000")
     CONTACT_WHATSAPP = os.getenv("CONTACT_WHATSAPP", "56937033936")
@@ -18,5 +21,6 @@ class Config:
     STAGING_EMAIL_OVERRIDE = os.getenv("STAGING_EMAIL_OVERRIDE", "")
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SAMESITE = "Lax"
-    SESSION_COOKIE_SECURE = os.getenv("FLASK_ENV", "development") == "production"
+    SESSION_COOKIE_SECURE = APP_ENV in {"staging", "production"}
     MAX_CONTENT_LENGTH = 32 * 1024
+

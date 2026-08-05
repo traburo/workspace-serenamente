@@ -27,7 +27,8 @@ class PostgresRegistrationRepository:
                 cursor.execute(
                     """
                     SELECT id FROM events WHERE slug = %s
-                    AND (status = 'published' OR (%s::boolean AND status = 'draft'))
+                    AND ((status = 'published' AND validation_status = 'validated')
+                         OR (%s::boolean AND status = 'draft'))
                     """,
                     (event_slug, allow_draft),
                 )
