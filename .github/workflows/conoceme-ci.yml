@@ -1,0 +1,33 @@
+name: CONOCEME MVP CI
+
+on:
+  pull_request:
+    paths:
+      - "07_Sistema_Comercial/CONOCEME_MVP/**"
+      - ".github/workflows/conoceme-ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "07_Sistema_Comercial/CONOCEME_MVP/**"
+      - ".github/workflows/conoceme-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 07_Sistema_Comercial/CONOCEME_MVP
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: 07_Sistema_Comercial/CONOCEME_MVP/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: pytest -q
