@@ -2,7 +2,11 @@
 {% block title %}Panel interno · CONÓCEME{% endblock %}
 {% block content %}
 <header class="admin-header">
-  <a href="{{ url_for('admin.registrations') }}"><strong>CONÓCEME</strong> · Operación</a>
+  <a href="{{ url_for('admin.registrations') }}"><strong>Serenamente</strong> · Operación</a>
+  <nav class="admin-nav" aria-label="Panel interno">
+    <a href="{{ url_for('admin.registrations') }}">Inscripciones</a>
+    <a href="{{ url_for('content.campaigns') }}">Contenido</a>
+  </nav>
   <form method="post" action="{{ url_for('admin.logout') }}">
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <button class="link-button" type="submit">Cerrar sesión</button>

@@ -1,0 +1,17 @@
+{% extends "admin/base.html" %}
+{% block admin_content %}
+<div class="admin-title"><div><p class="eyebrow">Sistema de contenido</p><h1>Campañas</h1></div>
+  <a class="button-link" href="{{ url_for('content.new_campaign') }}">Nueva campaña</a></div>
+<div class="content-grid">
+{% for campaign in campaigns %}
+  <article class="content-card">
+    <p class="eyebrow">{{ campaign.starts_on.strftime('%d-%m-%Y') }} — {{ campaign.ends_on.strftime('%d-%m-%Y') }}</p>
+    <h2><a href="{{ url_for('content.campaign_detail', campaign_id=campaign.id) }}">{{ campaign.title }}</a></h2>
+    <p>{{ campaign.theme }}</p>
+    <p><strong>{{ campaign.piece_count }}</strong> piezas · <strong>{{ campaign.approved_count }}</strong> aprobadas</p>
+  </article>
+{% else %}
+  <div class="empty-state"><h2>Aún no hay campañas</h2><p>Crea el primer brief semanal para comenzar.</p></div>
+{% endfor %}
+</div>
+{% endblock %}

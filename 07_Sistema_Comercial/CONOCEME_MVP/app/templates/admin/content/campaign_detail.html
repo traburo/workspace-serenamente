@@ -1,0 +1,35 @@
+{% extends "admin/base.html" %}
+{% block admin_content %}
+<p><a href="{{ url_for('content.campaigns') }}">← Todas las campañas</a></p>
+<div class="admin-title"><div><p class="eyebrow">{{ campaign.starts_on.strftime('%d-%m-%Y') }} — {{ campaign.ends_on.strftime('%d-%m-%Y') }}</p><h1>{{ campaign.title }}</h1></div></div>
+<section class="brief-summary"><p><strong>Objetivo:</strong> {{ campaign.objective }}</p><p><strong>Público:</strong> {{ campaign.audience }}</p><p><strong>Tema:</strong> {{ campaign.theme }}</p></section>
+{% if not pieces %}<form class="generation-callout" method="post" action="{{ url_for('content.generate_campaign', campaign_id=campaign.id) }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+  <div><strong>Generar campaña semanal</strong><p>Creará seis borradores con bloqueos de revisión humana.</p></div>
+  <button type="submit">Generar borradores</button>
+</form>{% endif %}
+<h2>Piezas</h2>
+<div class="content-grid">
+{% for piece in pieces %}<article class="content-card">
+  <p class="eyebrow">{{ piece.pillar }} · {{ piece.format }}</p>
+  <h3><a href="{{ url_for('content.piece_detail', piece_id=piece.id) }}">{{ piece.title }}</a></h3>
+  <span class="status status-{{ piece.status }}">{{ status_labels[piece.status] }}</span>
+  {% if piece.blocking_issues %}<p class="blocking-note">{{ piece.blocking_issues|length }} bloqueo(s)</p>{% endif %}
+</article>{% else %}<p>No hay piezas en esta campaña.</p>{% endfor %}
+</div>
+<details class="create-panel"><summary>Agregar una pieza</summary>
+<form class="editor-form" method="post" action="{{ url_for('content.create_piece', campaign_id=campaign.id) }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+  <label>Título<input name="title" required></label>
+  <div class="form-row"><label>Pilar<select name="pillar">{% for p in pillars %}<option>{{ p }}</option>{% endfor %}</select></label>
+    <label>Formato<select name="format">{% for f in formats %}<option>{{ f }}</option>{% endfor %}</select></label></div>
+  <label>Fecha y hora sugerida<input type="datetime-local" name="scheduled_for"></label>
+  <label>Objetivo<textarea name="objective"></textarea></label><label>CTA<input name="cta"></label>
+  <label>Caption o texto publicable<textarea name="caption"></textarea></label>
+  <label>Guion<textarea name="script"></textarea></label><label>Dirección visual<textarea name="visual_direction"></textarea></label>
+  <label>Fuentes<textarea name="sources"></textarea></label><label>Supuestos<textarea name="assumptions"></textarea></label>
+  <label>Pendientes de aprobación<textarea name="approval_pending"></textarea></label>
+  <label>Bloqueos críticos, uno por línea<textarea name="blocking_issues"></textarea></label>
+  <button type="submit">Guardar borrador</button>
+</form></details>
+{% endblock %}

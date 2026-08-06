@@ -16,6 +16,8 @@ class Config:
     ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "")
     ADMIN_PASSWORD_HASH = os.getenv("ADMIN_PASSWORD_HASH", "")
     INTERNAL_JOB_SECRET = os.getenv("INTERNAL_JOB_SECRET", "")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+    GEMINI_IMAGE_MODEL = os.getenv("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-lite-image")
     ENABLE_NO_SHOW_FOLLOWUP = os.getenv("ENABLE_NO_SHOW_FOLLOWUP", "0") == "1"
     STAGING_MODE = os.getenv("STAGING_MODE", "0") == "1"
     STAGING_EMAIL_OVERRIDE = os.getenv("STAGING_EMAIL_OVERRIDE", "")
