@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from uuid import uuid4
 
+from app.services.content_states import can_transition_content
 from app.services.states import can_transition
 
 
@@ -79,3 +81,110 @@ class MemoryRegistrationRepository:
 
     def export_registrations(self, status=None):
         return self.list_registrations(status)
+
+
+class MemoryContentRepository:
+    def __init__(self):
+        self.campaigns = {}
+        self.pieces = {}
+        self.reviews = []
+        self.assets = {}
+
+    def list_campaigns(self):
+        rows = []
+        for campaign in self.campaigns.values():
+            pieces = [p for p in self.pieces.values() if p["campaign_id"] == campaign["id"]]
+            rows.append({**campaign, "piece_count": len(pieces),
+                         "approved_count": sum(p["status"] == "approved" for p in pieces)})
+        return rows
+
+    def create_campaign(self, data, actor):
+        campaign_id = uuid4()
+        self.campaigns[campaign_id] = {
+            "id": campaign_id, **data, "created_by": actor, "status": "draft",
+            "starts_on": datetime.fromisoformat(data["starts_on"]).date(),
+            "ends_on": datetime.fromisoformat(data["ends_on"]).date(),
+            "created_at": datetime.now(timezone.utc),
+        }
+        return campaign_id
+
+    def get_campaign(self, campaign_id):
+        return self.campaigns.get(campaign_id)
+
+    def list_pieces(self, campaign_id):
+        return [p for p in self.pieces.values() if p["campaign_id"] == campaign_id]
+
+    def create_piece(self, campaign_id, data, actor):
+        piece_id = uuid4()
+        self.pieces[piece_id] = {
+            "id": piece_id, "campaign_id": campaign_id, **data, "status": "draft",
+            "created_by": actor, "created_at": datetime.now(timezone.utc),
+            "updated_at": datetime.now(timezone.utc),
+        }
+        return piece_id
+
+    def create_generated_pieces(self, campaign_id, pieces, actor):
+        if self.list_pieces(campaign_id):
+            raise ValueError("La campaña ya contiene piezas. La generación automática solo se ejecuta una vez.")
+        for piece in pieces:
+            self.create_piece(campaign_id, piece, actor)
+
+    def get_piece(self, piece_id):
+        piece = self.pieces.get(piece_id)
+        if not piece:
+            return None
+        return {**piece, "campaign_title": self.campaigns[piece["campaign_id"]]["title"]}
+
+    def update_piece(self, piece_id, data):
+        if self.pieces[piece_id]["status"] not in {"draft", "in_control", "changes_requested"}:
+            raise ValueError("La pieza debe volver a cambios antes de editarse.")
+        self.pieces[piece_id].update(data)
+
+    def transition_piece(self, piece_id, new_status, actor, comment=None):
+        piece = self.pieces.get(piece_id)
+        if not piece or not can_transition_content(piece["status"], new_status):
+            raise ValueError("Ese cambio de estado no está permitido.")
+        if new_status == "approved" and piece["blocking_issues"]:
+            raise ValueError("Resuelve los bloqueos antes de aprobar la pieza.")
+        if new_status == "approved" and any(
+            asset["piece_id"] == piece_id and asset["status"] == "pending_review"
+            for asset in self.assets.values()
+        ):
+            raise ValueError("Revisa las imágenes generadas antes de aprobar la pieza.")
+        previous = piece["status"]
+        piece["status"] = new_status
+        self.reviews.append({
+            "piece_id": piece_id, "reviewer": actor, "decision": new_status,
+            "comment": comment, "previous_status": previous, "new_status": new_status,
+            "created_at": datetime.now(timezone.utc),
+        })
+
+    def list_reviews(self, piece_id):
+        return [r for r in reversed(self.reviews) if r["piece_id"] == piece_id]
+
+    def save_image_asset(self, piece_id, prompt, generated, actor):
+        asset_id = uuid4()
+        self.assets[asset_id] = {
+            "id": asset_id, "piece_id": piece_id, "prompt": prompt,
+            "provider": "google-gemini", "model": generated.model,
+            "mime_type": generated.mime_type, "content": generated.data,
+            "created_by": actor, "created_at": datetime.now(timezone.utc),
+            "status": "pending_review", "reviewer": None, "reviewed_at": None,
+        }
+        return asset_id
+
+    def list_image_assets(self, piece_id):
+        return [a for a in self.assets.values() if a["piece_id"] == piece_id]
+
+    def get_image_asset(self, asset_id):
+        return self.assets.get(asset_id)
+
+    def review_image_asset(self, asset_id, status, reviewer):
+        if status not in {"approved", "rejected"}:
+            raise ValueError("La decisión sobre la imagen no es válida.")
+        asset = self.assets.get(asset_id)
+        if not asset or asset["status"] != "pending_review":
+            raise ValueError("La imagen no existe o ya fue revisada.")
+        asset.update({"status": status, "reviewer": reviewer,
+                      "reviewed_at": datetime.now(timezone.utc)})
+        return asset["piece_id"]

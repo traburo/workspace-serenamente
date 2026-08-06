@@ -5,11 +5,14 @@ from flask import Flask, render_template
 
 from .config import Config
 from .repositories.registrations import PostgresRegistrationRepository
+from .repositories.content import PostgresContentRepository
 from .routes.public import public_bp
 from .routes.admin import admin_bp
+from .routes.content import content_bp
+from .services.image_generation import NanoBananaImageService
 
 
-def create_app(test_config=None, repository=None):
+def create_app(test_config=None, repository=None, content_repository=None, image_service=None):
     app = Flask(__name__)
     app.config.from_object(Config)
     if test_config:
@@ -29,8 +32,15 @@ def create_app(test_config=None, repository=None):
     app.extensions["registration_repository"] = (
         repository or PostgresRegistrationRepository(app.config["DATABASE_URL"])
     )
+    app.extensions["content_repository"] = (
+        content_repository or PostgresContentRepository(app.config["DATABASE_URL"])
+    )
+    app.extensions["content_image_service"] = image_service or NanoBananaImageService(
+        app.config["GEMINI_API_KEY"], app.config["GEMINI_IMAGE_MODEL"]
+    )
     app.register_blueprint(public_bp)
     app.register_blueprint(admin_bp)
+    app.register_blueprint(content_bp)
 
     @app.after_request
     def secure_headers(response):

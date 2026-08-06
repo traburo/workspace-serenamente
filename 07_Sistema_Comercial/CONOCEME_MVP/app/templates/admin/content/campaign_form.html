@@ -1,0 +1,16 @@
+{% extends "admin/base.html" %}
+{% block admin_content %}
+<p><a href="{{ url_for('content.campaigns') }}">← Volver a campañas</a></p>
+<div class="admin-title"><div><p class="eyebrow">Brief inicial</p><h1>Nueva campaña</h1></div></div>
+{% if error %}<p class="form-error" role="alert">{{ error }}</p>{% endif %}
+<form class="editor-form" method="post">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+  <label>Título<input name="title" required placeholder="Semana: No necesitas sostenerlo todo"></label>
+  <label>Objetivo<textarea name="objective" required>Crecer la comunidad mediante contenido útil, guardable y compartible.</textarea></label>
+  <label>Público<textarea name="audience" required>Mujeres adultas que viven sobrecarga.</textarea></label>
+  <label>Tema semanal<textarea name="theme" required></textarea></label>
+  <div class="form-row"><label>Inicio<input type="date" name="starts_on" value="{{ today }}" required></label>
+    <label>Fin<input type="date" name="ends_on" value="{{ today }}" required></label></div>
+  <button type="submit">Crear campaña</button>
+</form>
+{% endblock %}

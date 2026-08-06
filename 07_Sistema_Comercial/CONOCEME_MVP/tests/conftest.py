@@ -2,7 +2,15 @@ import pytest
 from werkzeug.security import generate_password_hash
 
 from app import create_app
-from tests.fakes import MemoryRegistrationRepository
+from tests.fakes import MemoryContentRepository, MemoryRegistrationRepository
+
+
+class FakeImageService:
+    configured = True
+
+    def generate(self, prompt):
+        from app.services.image_generation import GeneratedImage
+        return GeneratedImage(b"fake-png", "image/png", "test-image-model")
 
 
 @pytest.fixture
@@ -11,14 +19,20 @@ def repository():
 
 
 @pytest.fixture
-def app(repository):
+def content_repository():
+    return MemoryContentRepository()
+
+
+@pytest.fixture
+def app(repository, content_repository):
     return create_app(
         {
             "TESTING": True, "SECRET_KEY": "test-secret",
             "CONTACT_WHATSAPP": "56937033936", "ADMIN_USERNAME": "alex",
             "ADMIN_PASSWORD_HASH": generate_password_hash("test-password"),
         },
-        repository=repository,
+        repository=repository, content_repository=content_repository,
+        image_service=FakeImageService(),
     )
 
 

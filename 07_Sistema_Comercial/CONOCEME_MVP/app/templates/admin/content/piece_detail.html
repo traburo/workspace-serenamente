@@ -1,0 +1,53 @@
+{% extends "admin/base.html" %}
+{% block admin_content %}
+<p><a href="{{ url_for('content.campaign_detail', campaign_id=piece.campaign_id) }}">← {{ piece.campaign_title }}</a></p>
+<div class="admin-title"><div><p class="eyebrow">{{ piece.pillar }} · {{ piece.format }}</p><h1>{{ piece.title }}</h1></div>
+  <span class="status status-{{ piece.status }}">{{ status_labels[piece.status] }}</span></div>
+{% if piece.blocking_issues %}<section class="blocking-box"><strong>No puede aprobarse todavía</strong><ul>{% for issue in piece.blocking_issues %}<li>{{ issue }}</li>{% endfor %}</ul></section>{% endif %}
+<form class="editor-form" method="post">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+  <label>Título<input name="title" value="{{ piece.title }}" required></label>
+  <div class="form-row"><label>Pilar<select name="pillar">{% for p in pillars %}<option {% if p == piece.pillar %}selected{% endif %}>{{ p }}</option>{% endfor %}</select></label>
+    <label>Formato<select name="format">{% for f in formats %}<option {% if f == piece.format %}selected{% endif %}>{{ f }}</option>{% endfor %}</select></label></div>
+  <label>Fecha sugerida<input type="datetime-local" name="scheduled_for" value="{{ piece.scheduled_for.strftime('%Y-%m-%dT%H:%M') if piece.scheduled_for else '' }}"></label>
+  <label>Objetivo<textarea name="objective">{{ piece.objective or '' }}</textarea></label><label>CTA<input name="cta" value="{{ piece.cta or '' }}"></label>
+  <label>Contenido publicable<textarea class="large-text" name="caption">{{ piece.caption or '' }}</textarea></label>
+  <label>Guion<textarea class="large-text" name="script">{{ piece.script or '' }}</textarea></label>
+  <label>Dirección visual<textarea name="visual_direction">{{ piece.visual_direction or '' }}</textarea></label>
+  <label>Fuentes utilizadas<textarea name="sources">{{ piece.sources or '' }}</textarea></label>
+  <label>Supuestos<textarea name="assumptions">{{ piece.assumptions or '' }}</textarea></label>
+  <label>Pendientes de aprobación<textarea name="approval_pending">{{ piece.approval_pending or '' }}</textarea></label>
+  <label>Bloqueos críticos, uno por línea<textarea name="blocking_issues">{{ piece.blocking_issues|join('\n') }}</textarea></label>
+  <button type="submit">Guardar cambios</button>
+</form>
+<section class="image-studio">
+  <div><p class="eyebrow">Automatización 01</p><h2>Imagen con Nano Banana</h2>
+  <p>El prompt se compone automáticamente desde el objetivo y la dirección visual. Puedes editarlo antes de consumir créditos.</p></div>
+  {% if image_generation_configured %}
+  <form class="editor-form" method="post" action="{{ url_for('content.generate_piece_image', piece_id=piece.id) }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <label>Prompt para la imagen<textarea class="large-text" name="image_prompt">{{ suggested_image_prompt }}</textarea></label>
+    <button type="submit">Generar una imagen</button>
+  </form>
+  {% else %}
+  <p class="configuration-note"><strong>Conexión inactiva.</strong> Agrega <code>GEMINI_API_KEY</code> para habilitar el botón. El prompt ya puede copiarse y probarse manualmente en Google AI Studio.</p>
+  <label class="prompt-preview">Prompt sugerido<textarea readonly>{{ suggested_image_prompt }}</textarea></label>
+  {% endif %}
+  {% if image_assets %}<div class="asset-grid">
+    {% for asset in image_assets %}<figure class="asset-card">
+      <img src="{{ url_for('content.image_asset', asset_id=asset.id) }}" alt="Propuesta visual generada, pendiente de revisión">
+      <figcaption>{{ asset.model }} · {{ asset.created_at.strftime('%d-%m-%Y %H:%M') }} · {{ asset.status }}</figcaption>
+      {% if asset.status == 'pending_review' %}<form class="asset-actions" method="post" action="{{ url_for('content.review_image_asset', asset_id=asset.id) }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <button name="status" value="approved" type="submit">Aprobar imagen</button>
+        <button class="secondary-button" name="status" value="rejected" type="submit">Rechazar</button>
+      </form>{% endif %}
+    </figure>{% endfor %}
+  </div>{% endif %}
+</section>
+{% if transitions %}<section class="review-panel"><h2>Revisión</h2><form method="post" action="{{ url_for('content.transition_piece', piece_id=piece.id) }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}"><label>Decisión<select name="status">{% for state in transitions %}<option value="{{ state }}">{{ status_labels[state] }}</option>{% endfor %}</select></label>
+  <label>Comentario<textarea name="comment"></textarea></label><button type="submit">Registrar decisión</button>
+</form></section>{% endif %}
+<section><h2>Historial</h2>{% for review in reviews %}<article class="audit-entry"><strong>{{ review.reviewer }}</strong> · {{ status_labels[review.new_status] }}<p>{{ review.comment or 'Sin comentario.' }}</p><small>{{ review.created_at.strftime('%d-%m-%Y %H:%M') }}</small></article>{% else %}<p>Aún no hay decisiones registradas.</p>{% endfor %}</section>
+{% endblock %}
