@@ -45,6 +45,23 @@
     </figure>{% endfor %}
   </div>{% endif %}
 </section>
+{% if carousel_ready %}
+<section class="carousel-studio">
+  <div class="carousel-studio-heading">
+    <div><p class="eyebrow">Automatización 02</p><h2>Carrusel con identidad Serenamente</h2>
+      <p>La plantilla agrega automáticamente textos, logotipo, colores y numeración sobre las imágenes generadas.</p></div>
+    <a class="button-link" href="{{ url_for('content.download_carousel', piece_id=piece.id) }}">Descargar 6 láminas</a>
+  </div>
+  <div class="carousel-preview-grid">
+    {% for index in range(6) %}
+    <figure class="carousel-preview-card">
+      <img src="{{ url_for('content.carousel_slide', piece_id=piece.id, index=index) }}" alt="Lámina {{ index + 1 }} del carrusel Serenamente">
+      <figcaption>Lámina {{ index + 1 }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 {% if transitions %}<section class="review-panel"><h2>Revisión</h2><form method="post" action="{{ url_for('content.transition_piece', piece_id=piece.id) }}">
   <input type="hidden" name="csrf_token" value="{{ csrf_token }}"><label>Decisión<select name="status">{% for state in transitions %}<option value="{{ state }}">{{ status_labels[state] }}</option>{% endfor %}</select></label>
   <label>Comentario<textarea name="comment"></textarea></label><button type="submit">Registrar decisión</button>

@@ -92,6 +92,37 @@ def test_generate_and_serve_image_asset(client, content_repository):
     assert asset["status"] == "approved"
 
 
+def test_build_branded_carousel_from_generated_images(client, content_repository):
+    _login(client)
+    campaign_id = _campaign(client)
+    response = client.post(f"/admin/content/campaigns/{campaign_id}/pieces",
+                           data=_piece_form(client))
+    piece_id = response.location.rsplit("/", 1)[-1]
+    image = BytesIO()
+    Image.new("RGB", (800, 1000), "#b8c7bd").save(image, "JPEG")
+    for index in range(6):
+        asset_id = content_repository.save_image_asset(
+            next(iter(content_repository.pieces)), f"Imagen {index}",
+            type("Generated", (), {
+                "data": image.getvalue(), "mime_type": "image/jpeg", "model": "test-model",
+            })(), "alex",
+        )
+        content_repository.assets[asset_id]["status"] = "approved"
+
+    slide = client.get(f"/admin/content/pieces/{piece_id}/carousel/0.jpg")
+    assert slide.status_code == 200
+    assert slide.mimetype == "image/jpeg"
+    with Image.open(BytesIO(slide.data)) as rendered:
+        assert rendered.size == (1080, 1350)
+
+    download = client.get(f"/admin/content/pieces/{piece_id}/carousel.zip")
+    assert download.status_code == 200
+    assert download.mimetype == "application/zip"
+    with ZipFile(BytesIO(download.data)) as archive:
+        assert len(archive.namelist()) == 6
+        assert archive.namelist()[0] == "serenamente-carrusel-01.jpg"
+
+
 def test_piece_with_blockers_cannot_be_approved(client, content_repository):
     _login(client)
     campaign_id = _campaign(client)
@@ -124,3 +155,7 @@ def test_piece_without_blockers_can_be_approved(client, content_repository):
         assert response.status_code == 302
     assert next(iter(content_repository.pieces.values()))["status"] == "approved"
     assert len(content_repository.reviews) == 3
+from io import BytesIO
+from zipfile import ZipFile
+
+from PIL import Image

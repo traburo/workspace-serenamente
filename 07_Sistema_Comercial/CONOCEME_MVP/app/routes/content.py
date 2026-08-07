@@ -1,9 +1,13 @@
 from datetime import date
+from io import BytesIO
+from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile
 
 from flask import Blueprint, Response, current_app, redirect, render_template, request, session, url_for
 
 from ..services.content_states import CONTENT_STATUS_LABELS, CONTENT_TRANSITIONS
 from ..services.content_generation import WeeklyContentGenerator
+from ..services.carousel_rendering import carousel_copy, render_carousel_slide
 from ..services.image_generation import ImageGenerationError, compose_image_prompt
 from ..services.security import admin_required, csrf_token, valid_csrf
 
@@ -19,6 +23,22 @@ def _repo():
 
 def _clean(value, limit=4000):
     return request.form.get(value, "").strip()[:limit]
+
+
+def _carousel_assets(piece_id):
+    assets = [asset for asset in _repo().list_image_assets(piece_id)
+              if asset["status"] != "rejected"]
+    return list(reversed(assets[:6]))
+
+
+def _render_slide(piece, assets, index):
+    if not assets:
+        raise ValueError("Genera al menos una imagen antes de componer el carrusel.")
+    asset = _repo().get_image_asset(assets[index % len(assets)]["id"])
+    logo_path = Path(current_app.static_folder) / "brand" / "logo-serenamente.webp"
+    return render_carousel_slide(
+        asset["content"], carousel_copy(piece)[index], index, logo_path.read_bytes()
+    )
 
 
 def _piece_form():
@@ -123,11 +143,13 @@ def piece_detail(piece_id):
     piece = _repo().get_piece(piece_id)
     if not piece:
         return render_template("error.html", message="No encontramos esa pieza."), 404
+    image_assets = _repo().list_image_assets(piece_id)
     return render_template(
         "admin/content/piece_detail.html", piece=piece, reviews=_repo().list_reviews(piece_id),
-        image_assets=_repo().list_image_assets(piece_id),
+        image_assets=image_assets,
         suggested_image_prompt=compose_image_prompt(piece),
         image_generation_configured=current_app.extensions["content_image_service"].configured,
+        carousel_ready=piece["format"] == "Carrusel" and bool(image_assets),
         transitions=CONTENT_TRANSITIONS.get(piece["status"], set()),
         status_labels=CONTENT_STATUS_LABELS, pillars=PILLARS, formats=FORMATS,
         csrf_token=csrf_token(),
@@ -149,6 +171,41 @@ def generate_piece_image(piece_id):
     except (ImageGenerationError, ValueError) as error:
         return render_template("error.html", message=str(error)), 502
     return redirect(url_for("content.piece_detail", piece_id=piece_id))
+
+
+@content_bp.get("/pieces/<uuid:piece_id>/carousel/<int:index>.jpg")
+@admin_required
+def carousel_slide(piece_id, index):
+    piece = _repo().get_piece(piece_id)
+    if not piece or piece["format"] != "Carrusel" or index not in range(6):
+        return "Lámina no encontrada", 404
+    try:
+        content = _render_slide(piece, _carousel_assets(piece_id), index)
+    except ValueError as error:
+        return render_template("error.html", message=str(error)), 409
+    return Response(content, mimetype="image/jpeg", headers={
+        "Cache-Control": "private, no-store", "Content-Disposition": "inline",
+    })
+
+
+@content_bp.get("/pieces/<uuid:piece_id>/carousel.zip")
+@admin_required
+def download_carousel(piece_id):
+    piece = _repo().get_piece(piece_id)
+    if not piece or piece["format"] != "Carrusel":
+        return "Carrusel no encontrado", 404
+    assets = _carousel_assets(piece_id)
+    if not assets:
+        return render_template("error.html", message="Genera al menos una imagen antes de componer el carrusel."), 409
+    archive = BytesIO()
+    with ZipFile(archive, "w", ZIP_DEFLATED) as bundle:
+        for index in range(6):
+            bundle.writestr(f"serenamente-carrusel-{index + 1:02d}.jpg",
+                            _render_slide(piece, assets, index))
+    return Response(archive.getvalue(), mimetype="application/zip", headers={
+        "Content-Disposition": "attachment; filename=serenamente-carrusel.zip",
+        "Cache-Control": "private, no-store",
+    })
 
 
 @content_bp.get("/assets/<uuid:asset_id>")
